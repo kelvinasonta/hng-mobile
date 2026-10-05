@@ -1,0 +1,38 @@
+export const THEME = {
+  colors: {
+    bg: '#07090e',
+    surface: '#0f141d',
+    surfaceElevated: '#171e2b',
+    border: 'rgba(255, 255, 255, 0.08)',
+    borderActive: '#38bdf8',
+    primary: '#38bdf8',
+    primaryGlow: 'rgba(56, 189, 248, 0.15)',
+    emerald: '#34d399',
+    amber: '#f59e0b',
+    danger: '#f87171',
+    textMain: '#f8fafc',
+    textMuted: '#94a3b8',
+    textDim: '#64748b',
+    cardGlass: 'rgba(15, 20, 29, 0.85)',
+  },
+  typography: {
+    fontMono: 'Courier New',
+    headingSize: 22,
+    subheadingSize: 16,
+    bodySize: 14,
+    captionSize: 12,
+  },
+  spacing: {
+    xs: 4,
+    sm: 8,
+    md: 16,
+    lg: 24,
+    xl: 32,
+  },
+  radius: {
+    sm: 6,
+    md: 12,
+    lg: 16,
+    full: 999,
+  },
+};
